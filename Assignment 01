@@ -1,0 +1,27 @@
+TO LAUNCH AN AWS EC2 INSTANCE :
+Step 1:Create your account on amazon aws using root or IAM user.
+Step 2:Open EC2 services and click on instances.
+Step 3:Name your instance and select window O.S.
+Step 4:Select instances types (select t2.micro ).
+Step 5:Now create your key pair name (key pair type should be RSA and and format .pem).
+Step 6After creating your key it will be downloaded automatically.
+Step 7:Allow SSH traffic from my ip address only
+Step 8:Now click on launch instance.
+Step 9:After launching your instances go to your instances and select your instance and click on connect then click on RDP client and download remote desktop file.
+Step 10:Now click on get password and click on upload private key.
+Step 11:Choose your pem file and upload it.
+Step 12:Then click on decrypt password and copy your password .
+Step 13:Open your remote desktop file and paste your password and click on connect.
+Step 14:Now your virtual window will be opened.
+
+TO LAUNCH A APACHE WEB SERVER ON VIRTUAL WINDOW MACHINE :
+Step 1- Open the Browser and search for "Apache web server ".
+Step 2- Now go to Apache website and download the zoip file for windows.
+Step 3- Unzip the file and extract the folder Apache 24 to C drive.
+Step 4- Open the command prompt(cmd) and run as administrator.
+Step 5- Run command "cd  C:\Apache 24\bin".
+Step 6- Run command "httpd -k install". 
+Installing of Apache Web server successfull. 
+Step 7- Now go to services, click on Apache 2.4 and start the service.
+Step 8- Go to browser and search localhost "127.0.0.1".
+It display "It works!".
